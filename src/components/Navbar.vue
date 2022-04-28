@@ -9,17 +9,19 @@
 				<i class="fa fa-bars text-gray-50 text-2xl"></i>
 			</button>
 		</section>
-		
+		    <VueScrollActiveMenu tag="nav" :offset="123">
 		<section :class="showMenu ? 'right-0' : '-right-full'" class="navbar-menu">
 			<ul class="navbar-list">
 			<span @click="showMenu = false" class=" md:hidden"><i class="fa fa-times text-gray-50"></i></span>
 				<template v-for="(menu, x) in menus" :key="x">
-					<li :class="menuActive === menu.name ? 'border-b-4 border-blue-400' : ''" class="text-gray-50 font-medium duration-300">
-						<a @click="menuActive = menu.name" :href="menu.to" v-smooth-scroll>{{ menu.name }}</a>
+					<!-- :class="menuActive === menu.name ? 'active' : '333'"  -->
+					<li class="scroll-active-item text-gray-50 font-medium duration-300" :class="menu.to">
+						<a @click="menuActive = menu.name" :href="# menu.to" v-smooth-scroll>{{ menu.name }}</a>
 					</li>
 				</template>
 			</ul>
 		</section>
+	</VueScrollActiveMenu>
 	</main>
 </template>
 
@@ -39,9 +41,13 @@
 	.navbar-list {
 		@apply flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 lg:text-xl;
 	}
+	.active {
+		@apply border-b-4 border-blue-400
+	}
 </style>
 
 <script setup>
+import VueScrollActiveMenu from './VueScrollActiveMenu.vue'
 
 
 	import { ref } from 'vue'
@@ -55,27 +61,27 @@
 	const menus = [
 		{
 			name: '近况',
-			to: '#news'
+			to: 'news'
 		},
 		{
 			name: 'MouseInc',
-			to: '#about'
+			to: 'about'
 		},
 		{
 			name: 'SuperRun',
-			to: '#event'
+			to: 'event'
 		},
 		{
 			name: 'FAQ',
-			to: '#FAQ'
+			to: 'FAQ'
 		},
 		{
 			name: '联系',
-			to: '#contact'
+			to: 'contact'
 		},
 		{
 			name: '关于',
-			to: '#announcement'
+			to: 'announcement'
 		}
 	]
 	
