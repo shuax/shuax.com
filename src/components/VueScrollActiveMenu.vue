@@ -57,14 +57,18 @@
 				const sections = document.querySelectorAll('.' + this.sectionClass);
 				const menuElements = document.querySelectorAll('.' + this.menuItemClass);
 				let currentSection = '';
+				sections.forEach(section => {
+					console.log(section.getAttribute("id"), section.offsetTop - this.offset, section.offsetTop - this.offset + section.offsetHeight)
+				});
 				
 				sections.forEach(section => {
 					let sectionTop = section.offsetTop;
 					
-					if (pageYOffset >= sectionTop - this.offset) {
+					if (pageYOffset >= section.offsetTop - this.offset && pageYOffset < section.offsetTop - this.offset + section.offsetHeight) {
 						currentSection = section.getAttribute("id");
 					}
 				});
+				console.log("scroll", pageYOffset, currentSection)
 
 				menuElements.forEach((li) => {
 					if (currentSection) {
