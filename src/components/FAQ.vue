@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main class="py-10">
 		<h1 class="text-center pb-6 text-3xl md:text-4xl lg:text-5xl font-semibold text-indigo-500">FAQ's</h1>
 			<p class="text-gray-600 text-center lg:px-24">Rasa penasaranmu tentang event ini akan kami coba bantu cari solusinya, jika belum puas silahkan hubungi narahubung kami</p>
 			<section class="w-full md:w-8/12 lg:w-6/12 md:mx-auto mt-10">

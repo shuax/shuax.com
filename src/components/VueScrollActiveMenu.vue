@@ -57,9 +57,9 @@
 				const sections = document.querySelectorAll('.' + this.sectionClass);
 				const menuElements = document.querySelectorAll('.' + this.menuItemClass);
 				let currentSection = '';
-				sections.forEach(section => {
-					console.log(section.getAttribute("id"), section.offsetTop - this.offset, section.offsetTop - this.offset + section.offsetHeight)
-				});
+				// sections.forEach(section => {
+				// 	console.log(section.getAttribute("id"), section.offsetTop - this.offset, section.offsetTop - this.offset + section.offsetHeight)
+				// });
 				
 				sections.forEach(section => {
 					let sectionTop = section.offsetTop;
@@ -68,7 +68,7 @@
 						currentSection = section.getAttribute("id");
 					}
 				});
-				console.log("scroll", pageYOffset, currentSection)
+				// console.log("scroll", pageYOffset, currentSection)
 
 				menuElements.forEach((li) => {
 					if (currentSection) {

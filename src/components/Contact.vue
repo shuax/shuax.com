@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main class="py-10">
 		<h1 class="text-center pb-6 text-3xl md:text-4xl lg:text-5xl font-semibold text-indigo-500">Narahubung</h1>
 		<p class="text-gray-600 text-center lg:px-24">Masih perlu ada yang ditanyakan ? silahkan menghubungi kontak narahubung kami dibawah ini</p>
 		<section class="mt-12 md:flex justify-evenly gap-6">

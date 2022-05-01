@@ -3,7 +3,7 @@
 		<h1 class="text-center pb-6 text-3xl md:text-4xl lg:text-5xl font-semibold text-indigo-500">Tentang</h1>
 		<p class="text-gray-600 text-center lg:px-24">Sekilas info tentang IT Gathering HIMA TI Polihasnur Tahun 2022</p>
 		<section class="mt-10 md:flex md:gap-8 md:items-start xl:items-start">
-			<img class="md:mx-auto mb-5 md:w-3/12 lg:w-2/12" src="/about.png" width="150" />
+			<img class="md:mx-auto mb-5 md:w-3/12 lg:w-2/12" src="/dance.png" />
 			<p class="xl:px-6 lg:text-lg text-gray-600 xl:w-9/12 leading-thight">
 				<span class="text-indigo-700 font-medium">Diadakannya</span> kegiatan IT Gathering dimaksudkan untuk membangun rasa 
 				kekeluargaan antar pengurus dan anggota melalui berbagai kegiatan yang bersifat kelompok
