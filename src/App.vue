@@ -2,12 +2,16 @@
     <Navbar />
     <main class="w-full">
     
-        <section id="news" class="min-h-screen section scroll-active-section bg-gradient-to-r from-sky-500 to-indigo-600">
-            <Headline />
+        <section id="News" class="min-h-screen section scroll-active-section bg-gradient-to-r from-sky-500 to-indigo-600">
+            <News />
         </section>
     
         <section id="MouseInc" class="section scroll-active-section bg-gray-100">
             <MouseInc />
+        </section>
+    
+        <section id="Web2Exe" class="section scroll-active-section bg-gray-100">
+            <Web2Exe />
         </section>
 
         <section id="FAQ" class="section scroll-active-section bg-gray-100">
@@ -27,8 +31,9 @@
 </template>
 <script setup>
     import Navbar from '@/components/Navbar.vue'
-    import Headline from '@/components/Headline.vue'
+    import News from '@/components/News.vue'
     import MouseInc from '@/components/MouseInc.vue'
+    import Web2Exe from '@/components/Web2Exe.vue'
     import FAQ from '@/components/FAQ.vue'
     import Contact from '@/components/Contact.vue'
     import Footer from '@/components/Footer.vue'

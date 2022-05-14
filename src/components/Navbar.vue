@@ -9,10 +9,13 @@
         <section class="navbar-menu right-0">
             <ul class="navbar-list">
                 <li class="scroll-active-item text-gray-50 font-medium news active">
-                    <a href="#news" v-smooth-scroll>近况</a>
+                    <a href="#News" v-smooth-scroll>近况</a>
                 </li>
                 <li class="scroll-active-item text-gray-50 font-medium MouseInc">
                     <a href="#MouseInc" v-smooth-scroll>MouseInc</a>
+                </li>
+                <li class="scroll-active-item text-gray-50 font-medium Web2Exe">
+                    <a href="#Web2Exe" v-smooth-scroll>Web2Exe</a>
                 </li>
                 <li class="scroll-active-item text-gray-50 font-medium FAQ">
                     <a href="#FAQ" v-smooth-scroll>FAQ</a>
