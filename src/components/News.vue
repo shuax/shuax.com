@@ -9,10 +9,10 @@
 			<h1 id="heading" class="lg:text-5xl lg:leading-snug text-3xl text-gray-50 font-semibold">
 				最近更新信息
 			</h1>
-			<p class="lg:text-1xl text-gray-100 font-medium mt-4">2022年9月3日</p>
-			<p class="lg:text-2xl text-gray-100 font-medium">MouseInc 2.13.1</p>
+			<p class="lg:text-1xl text-gray-100 font-medium mt-4">2022年9月6日</p>
+			<p class="lg:text-2xl text-gray-100 font-medium">MouseInc 2.13.2</p>
 			<p class="lg:text-2xl text-gray-100 font-medium">
-				增加OCR接口设置
+				新增输入法状态显示 新增快速跳转(测试)
 			</p>
 			
 			<!-- Call to action -->
