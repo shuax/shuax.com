@@ -9,14 +9,14 @@
 			<h1 id="heading" class="lg:text-5xl lg:leading-snug text-3xl text-gray-50 font-semibold">
 				最近更新信息
 			</h1>
-			<p class="lg:text-1xl text-gray-100 font-medium mt-4">2022年9月6日</p>
-			<p class="lg:text-2xl text-gray-100 font-medium">MouseInc 2.13.2</p>
+			<p class="lg:text-1xl text-gray-100 font-medium mt-4">2022年9月10日</p>
+			<p class="lg:text-2xl text-gray-100 font-medium">MouseInc 2.13.4</p>
 			<p class="lg:text-2xl text-gray-100 font-medium">
-				新增输入法状态显示 新增快速跳转(测试)
+				新增桌面图标显示切换 优化剪贴板处理
 			</p>
 			
 			<!-- Call to action -->
-			<a href="https://dl.shuax.com/MouseInc2.13.1.7z" class="duration-300 cursor-pointer active:ring-2 ring-indigo-300 hover:scale-90 text-gray-50 w-8/12 mt-4 lg:mt-8 justify-center flex items-center gap-2 lg:gap-3 bg-gradient-to-r from-indigo-500 to-indigo-700 py-3 px-3 lg:py-4 rounded-lg block">
+			<a href="https://dl.shuax.com/MouseInc2.13.4.7z" class="duration-300 cursor-pointer active:ring-2 ring-indigo-300 hover:scale-90 text-gray-50 w-8/12 mt-4 lg:mt-8 justify-center flex items-center gap-2 lg:gap-3 bg-gradient-to-r from-indigo-500 to-indigo-700 py-3 px-3 lg:py-4 rounded-lg block">
 				<i class="fa fa-download lg:text-xl"></i>
 				<span class="lg:text-xl">立刻下载</span>
 			</a>
