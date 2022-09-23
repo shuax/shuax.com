@@ -2,7 +2,7 @@
     <main class="navbar">
     <section class="navbar-brand">
         <a class="navbar-brand mr-5" href="/">
-        <img src="/logo_white.png" width="192" alt="耍下"/>
+        <img src="@/assets/logo_white.png" width="192" alt="耍下"/>
         </a>
     </section>
     <VueScrollActiveMenu tag="nav" :offset="124">
